@@ -4,3 +4,7 @@ gitの練習をする。
 【2】
 git push
 のみでプッシュした。
+
+【3】
+git push origin main
+でプッシュした。
