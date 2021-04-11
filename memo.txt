@@ -12,3 +12,25 @@ git push origin main
 【4】
 git checkout -b issu/#1
 ブランチを切った。
+
+【5】
+git push -u origin issu/#1
+issu/#1ブランチを初回プッシュした。
+
+【6】リモート
+issu/#1ブランチにissu/#1を紐付けてプルリクした。
+プルリクをmainにマージした。
+
+【7】
+変更内容の退避・復活・復活させたstashの削除
+
+//退避
+git stash
+git stash list
+git stash list -p
+
+//復活
+git stash apply stash@{0}
+
+//削除
+git stash drop stash@{0}
