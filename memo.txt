@@ -34,3 +34,14 @@ git stash apply stash@{0}
 
 //削除
 git stash drop stash@{0}
+
+【8】
+git checkout -b release01
+リリースブランチを切った。
+
+【9】
+git checkout -b dev-ohkawa
+開発ブランチを切った。
+
+トップページを作った。
+index.html
